@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'abwab';
+  title = 'A Board With A Bag';
+  menu = [
+    {"name":"home", "url":"/"},
+    {"name":"resume", "url":"/resume"},
+    {"name":"blog", "url":"/blog"}
+  ];
 }
